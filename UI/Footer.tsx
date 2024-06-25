@@ -28,12 +28,12 @@ export const Footer = () => {
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <Image
+              {/* <Image
                 src="/logo.svg"
                 alt="City Rents Logo"
                 width={40}
                 height={40}
-              />
+              /> */}
               <span className="font-semibold text-xl">City Rents</span>
             </Link>
             <p className="text-sm max-w-md">

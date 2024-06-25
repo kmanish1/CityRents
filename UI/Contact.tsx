@@ -65,7 +65,7 @@ export default function Contact() {
     });
   };
   return (
-    <div className="flex justify-center items-center h-screen bg-background">
+    <div className="flex justify-center items-center h-screen bg-background bg-white">
       <div className="bg-card p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center">Contact Us</h2>
         <form className="space-y-4">

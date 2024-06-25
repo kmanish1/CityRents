@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "thrishankkalluru@gmail.com",
+      user: "putyourmail@gmail.com",
       pass: "fhtb cmcz mgus rlxz",
     },
     secure: true,
@@ -84,7 +84,7 @@ export async function POST(req: NextRequest) {
 </html>
 `;
   const mailData = {
-    to: "thrishankkalluru16@gmail.com",
+    to: "putyourmail@gmail.com",
     subject: `Message From cityrents`,
     html: html_data,
   };

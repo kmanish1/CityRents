@@ -62,7 +62,7 @@ export default function Navbar() {
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <ul className="flex space-x-8 list-none">
-              {["Home", "Services", "Locations", "About Us", "Contact Us"].map(
+              {["Home", "Services", "Locations", "About Us", "Contact Us","Blog"].map(
                 (link) => (
                   <NavLink key={link} label={link} />
                 )
@@ -99,7 +99,7 @@ export default function Navbar() {
       </div>
       <MobileMenu
         isOpen={isMobileMenuOpen}
-        links={["Home", "Services", "Locations", "About Us", "Contact Us"]}
+        links={["Home", "Services", "Locations", "About Us", "Contact Us","Blog"]}
       />
     </nav>
   );

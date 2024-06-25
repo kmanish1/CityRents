@@ -3,39 +3,39 @@ import { InfiniteMovingCards } from "@/components/infinite";
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+      "I was struggling to rent out my Flat in Pune, as I am based in USA and finding the tenants is a big task. Housewise helped me rent my Flat and I am very much satisfied with the service. Process was smooth and all agents were proactive, specially Sandhya Borkar has helped understand and go through the process seamlessly. I highly recommend cityrents",
     name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+    title: "Canada",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "I was struggling to rent out my Flat in Pune, as I am based in USA and finding the tenants is a big task. Housewise helped me rent my Flat and I am very much satisfied with the service. Process was smooth and all agents were proactive, specially Sandhya Borkar has helped understand and go through the process seamlessly. I highly recommend cityrents",
+    name: "William",
+    title: "Poland",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
+    quote: "I was struggling to rent out my Flat in Pune, as I am based in USA and finding the tenants is a big task. Housewise helped me rent my Flat and I am very much satisfied with the service. Process was smooth and all agents were proactive, specially Sandhya Borkar has helped understand and go through the process seamlessly. I highly recommend cityrents",
     name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+    title: "Australia",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+      "I was struggling to rent out my Flat in Pune, as I am based in USA and finding the tenants is a big task. Housewise helped me rent my Flat and I am very much satisfied with the service. Process was smooth and all agents were proactive, specially Sandhya Borkar has helped understand and go through the process seamlessly. I highly recommend cityrents",
     name: "Jane Austen",
-    title: "Pride and Prejudice",
+    title: "USA",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
+      "I was struggling to rent out my Flat in Pune, as I am based in USA and finding the tenants is a big task. Housewise helped me rent my Flat and I am very much satisfied with the service. Process was smooth and all agents were proactive, specially Sandhya Borkar has helped understand and go through the process seamlessly. I highly recommend cityrents",
     name: "Herman Melville",
-    title: "Moby-Dick",
+    title: "Canada",
   },
 ];
 
 export function Reviews() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
-      <h1 className="font-bold text-3xl">Testimonails</h1>
+    <div className="rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+      <h1 className="font-bold text-3xl py-5">Testimonials</h1>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"

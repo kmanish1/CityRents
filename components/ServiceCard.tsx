@@ -25,7 +25,7 @@ export default function ServiceCard({
         <h3 className=" text-xl md:text-2xl text-black font-semibold text-center pb-6">
           {heading}
         </h3>
-        <p className=" text-small text-center p-2">{text}</p>
+        <p className=" text-small text-center p-2 pb-4">{text}</p>
         <div className="absolute bottom-0 m-auto left-0 right-0">
           <button className="text-center rounded bg-blue-500 text-white px-4 py-2 ">
             Learn More

@@ -2,7 +2,7 @@ import ServiceCard from "@/components/ServiceCard";
 
 function Choose() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 content-center py-5 mb-5 bg-white">
+    <div className="grid grid-cols-1 md:grid-cols-2 content-center py-5 mb-5 bg-white px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="flex justify-center items-center">
         <img src="/4295033-removebg-preview.png" height={500} width={500}></img>
       </div>
@@ -31,9 +31,9 @@ function Choose() {
 
 export default function Services() {
   return (
-    <div>
+    <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="py-10">
-        <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6">
+        <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 ">
           Our services include:
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

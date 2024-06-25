@@ -11,7 +11,7 @@ export default function ServiceCard({
 }) {
   return (
     <div
-      className={`text-center hover:drop-shadow-2xl hover:bg-blue-100 rounded-lg p-4 transition-transform transform hover:scale-102 duration-1000`}
+      className={`text-center hover:drop-shadow-2xl hover:bg-gray-100 rounded-lg p-4 transition-transform transform hover:scale-102 duration-1000`}
     >
       <div className="flex items-center justify-center">
         <img
@@ -26,7 +26,7 @@ export default function ServiceCard({
           {heading}
         </h3>
         <p className=" text-small text-center p-2 pb-4">{text}</p>
-        <div className="absolute bottom-0 m-auto left-0 right-0">
+        <div className="absolute bottom-2 m-auto left-0 right-0">
           <button className="text-center rounded bg-blue-500 text-white px-4 py-2 ">
             Learn More
           </button>

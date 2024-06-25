@@ -3,7 +3,7 @@ export default function Choose() {
     <div className="grid grid-cols-1 md:grid-cols-2 content-center py-5 mb-5">
       <div className="flex justify-center items-center">
         <img
-          src="/Untitled_design-removebg-preview.png"
+          src="/4295033-removebg-preview.png"
           height={500}
           width={500}
         ></img>

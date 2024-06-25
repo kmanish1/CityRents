@@ -6,13 +6,13 @@ const data = [
   { name: "Banglore", img: "/banglore.jpeg" },
   { name: "Chennai", img: "/chennai.jpeg" },
   { name: "Mumbai", img: "/mumbai.jpeg" },
-  { name: "Delhi", img: "/Delhi.jpeg" },
   { name: "Hyderabad", img: "/hyderabad.jpeg" },
   { name: "Banglore", img: "/banglore.jpeg" },
   { name: "Chennai", img: "/chennai.jpeg" },
   { name: "Mumbai", img: "/mumbai.jpeg" },
-  { name: "Delhi", img: "/Delhi.jpeg" },
   { name: "Hyderabad", img: "/hyderabad.jpeg" },
+  { name: "Banglore", img: "/banglore.jpeg" },
+  { name: "Chennai", img: "/chennai.jpeg" },
   { name: "Banglore", img: "/banglore.jpeg" },
   { name: "Chennai", img: "/chennai.jpeg" }
 ];

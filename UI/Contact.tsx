@@ -65,8 +65,8 @@ export default function Contact() {
     });
   };
   return (
-    <div className="flex justify-center items-center h-screen bg-background bg-white">
-      <div className="bg-card p-8 rounded-lg shadow-lg w-full max-w-md">
+    <div className="flex justify-center items-center h-screen ">
+      <div className="bg-card p-8 rounded-lg shadow-lg w-full max-w-md bg-white">
         <h2 className="text-2xl font-bold mb-6 text-center">Contact Us</h2>
         <form className="space-y-4">
           <Input
@@ -109,7 +109,7 @@ export default function Contact() {
           <div className="flex justify-end">
             <button
               type="submit"
-              className="inline-flex items-center justify-center rounded-md bg-black px-4 py-2 text-sm font-medium 
+              className="inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium 
               text-white shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 
               focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               onClick={handleSubmit}

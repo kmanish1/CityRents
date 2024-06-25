@@ -2,7 +2,7 @@ import WorkCard from "@/components/WorkCard";
 
 export default function Work() {
   return (
-    <div className="pb-5 mb-5">
+    <div className="pb-5 mb-5 px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 mb-4">
         How it Works
       </h1>

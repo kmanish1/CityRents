@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function WorkCard({
+export default function BenefitCard({
   icon,
   stats,
   text,
@@ -11,7 +11,7 @@ export default function WorkCard({
 }) {
   return (
     <div
-      className={`text-center text-black hover:bg-white cursor-pointer hover:drop-shadow-md rounded-lg p-4 transition-transform transform hover:scale-102 duration-1000`}
+      className={`text-center text-black hover:bg-[#DDEEFF] cursor-pointer hover:drop-shadow-md rounded-lg p-4 transition-transform transform hover:scale-102 duration-1000`}
     >
       <div className="flex items-center justify-center">
         <img

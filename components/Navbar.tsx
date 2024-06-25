@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function NavLink({ label }: { label: string }) {
   return (
     <li className="py-2 hover:text-blue-500 cursor-pointer transition-all duration-200">
-      <a>{label}</a>
+      <a href={"#" + label}>{label}</a>
     </li>
   );
 }
@@ -60,7 +60,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <h3 className="text-2xl font-bold text-blue-600">CityRents</h3>
           </div>
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             <ul className="flex space-x-8 list-none">
               {["Home", "Services", "Locations", "About Us", "Contact Us"].map(
                 (link) => (
@@ -70,15 +70,14 @@ export default function Navbar() {
             </ul>
           </div>
           <div className="flex items-center space-x-4">
-            <Button label="Log in" />
-            <Button label="Sign Up" primary />
+            <Button label="Log in" primary />
             <Button
               label="Submit Property"
               primary
-              className="hidden lg:block"
+              className="hidden md:block"
             />
             <button
-              className="lg:hidden p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              className="md:hidden p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
               onClick={toggleMobileMenu}
             >
               <svg

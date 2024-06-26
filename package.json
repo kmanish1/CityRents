@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cloudinary": "^2.2.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.11",
     "mongoose": "^8.4.3",

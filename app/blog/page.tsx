@@ -1,7 +1,3 @@
-// Display all blogs
-// new post button
-// edit button and delete button next to the blog post
-
 "use client";
 import axios from "axios";
 import { useEffect, useState } from "react";

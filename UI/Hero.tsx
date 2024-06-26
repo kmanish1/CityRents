@@ -36,7 +36,7 @@ export default function Hero() {
         className="relative w-full grid grid-cols-1 place-items-center md:grid-cols-2 gap-4 items-center px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
       >
         <div className="relative order-last md:order-first z-10 text-center max-w-2xl px-4 sm:px-6 lg:px-8 animate-fade-in">
-          <h1 className="text-2xl font-bold text-black sm:text-3xl md:text-4xl animate-fade-in-up">
+          <h1 className="text-2xl font-bold text-black sm:text-3xl md:text-4xl animate-fade-in-up z-0">
             Feeling Uncertain About Renting Out Your Property in India?
           </h1>
           <p className="mt-3 text-md text-gray-700 sm:mt-5 sm:text-xl animate-fade-in-up delay-100">

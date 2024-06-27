@@ -26,11 +26,11 @@ export default function ServiceCard({
           {heading}
         </h3>
         <p className=" text-small text-center p-2 pb-4">{text}</p>
-        <div className="absolute bottom-2 m-auto left-0 right-0">
+        {/* <div className="absolute bottom-2 m-auto left-0 right-0">
           <button className="text-center rounded bg-blue-500 text-white px-4 py-2 ">
             Learn More
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

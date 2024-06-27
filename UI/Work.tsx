@@ -8,22 +8,22 @@ export default function Work() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <WorkCard
-          icon="/mail.svg"
+          icon="/360 Property Management.png"
           text="CityRents offers a comprehensive Property Management System that guarantees peace of mind when it comes to overseeing your property."
           stats="360 Property Management"
         />
         <WorkCard
-          icon="/mail.svg"
+          icon="/Maintainence Concerns.png"
           text="CityRents' maintenance team, comprising plumbers, electricians, and carpenters, is always on standby to ensure prompt resolution of issues raised by tenants or owners."
           stats="Maintenance Concerns"
         />
         <WorkCard
-          icon="/mail.svg"
+          icon="/Rental Collections.png"
           text="CityRents handles rental payments, providing peace of mind to both tenants and owners by ensuring payments are made promptly and reliably."
           stats="Rental Collections"
         />
         <WorkCard
-          icon="/mail.svg"
+          icon="/Maintainence Coordination.png"
           text="Efficiently handle maintenance requests with our intuitive system. Tenants can submit requests online, and property managers can track progress, schedule repairs, and ensure timely resolution."
           stats="Maintenance Coordination"
         />

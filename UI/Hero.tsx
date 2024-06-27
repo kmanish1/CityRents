@@ -31,7 +31,7 @@ function City() {
 
 export default function Hero() {
   return (
-    <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8" id="#Home">
+    <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 dark:bg-white bg-black dark:bg-dot-black/[0.2] bg-dot-white/[0.2]" id="#Home">
       <section
         className="relative w-full grid grid-cols-1 place-items-center md:grid-cols-2 gap-4 items-center px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
       >

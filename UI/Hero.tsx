@@ -5,7 +5,7 @@ import Services from "./Services";
 
 export default function Hero() {
   return (
-    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 dark:bg-white bg-black dark:bg-dot-black/[0.4] bg-dot-white/[0.4]" id="#Home">
+    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-white bg-dot-black/[0.4]" id="#Home">
       <section
         className="relative w-full pt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
       >

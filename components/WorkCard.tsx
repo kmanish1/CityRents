@@ -11,9 +11,9 @@ export default function WorkCard({
 }) {
   return (
     <div
-      className={` text-white bg-blue-600 border-2 border-black cursor-pointer hover:drop-shadow-md rounded-3xl p-2 transition-transform transform hover:scale-102 duration-1000`}
+      className={` text-black bg-blue-600 border-2 border-black cursor-pointer hover:drop-shadow-md rounded-3xl p-2 transition-transform transform hover:scale-102 duration-1000`}
     >
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center pb-2">
         <img
           src={icon}
           className="w-[100px] text-center h-[100px] transition-transform transform hover:scale-105"
@@ -22,7 +22,7 @@ export default function WorkCard({
         />
       </div>
       <div className="text-left">
-        <h3 className="text-xl font-semibold mb-2">
+        <h3 className="text-xl mb-2">
           {stats}
         </h3>
         <p className=" text-sm">{text}</p>

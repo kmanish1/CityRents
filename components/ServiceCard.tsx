@@ -13,14 +13,14 @@ export default function ServiceCard({
     <div
       className={`text-center bg-[#00e785] ml-2 shadow-[rgba(0,0,15,0.3)_10px_5px_4px_0px] pr-5 border-2 border-black rounded-3xl rounded-tr-[100px] p-2 transition-transform transform hover:scale-102 duration-1000`}
     >
-      {/* <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3">
         <img
           src={icon}
           className="w-[100px] mb-5 rounded-full col-span-1 text-center h-[100px] transition-transform transform hover:scale-105"
           width={147}
           height={147}
         />
-      </div> */}
+      </div>
       <div className=" mt-4 mb-2 text-left">
         <h3 className=" text-xl md:text-2xl text-black font-medium pb-2">
           {heading}

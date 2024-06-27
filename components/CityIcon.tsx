@@ -9,7 +9,7 @@ const MyComponent = ({ img, name }: { img: string; name: string }) => {
           alt={name}
           layout="fill"
           objectFit="cover"
-          className="rounded-full"
+          className=""
         />
       </div>
       <div className="text-medium text-black group-hover:text-blue-700 text-center">

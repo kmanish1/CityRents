@@ -11,21 +11,21 @@ export default function ServiceCard({
 }) {
   return (
     <div
-      className={`text-center hover:drop-shadow-2xl hover:bg-gray-100 rounded-lg p-4 transition-transform transform hover:scale-102 duration-1000`}
+      className={`text-center bg-[#e5fcf5] ml-2 shadow-[rgba(0,0,15,0.3)_10px_5px_4px_0px] border-2 rounded-3xl rounded-tr-[100px] p-2 transition-transform transform hover:scale-102 duration-1000`}
     >
-      <div className="flex items-center justify-center">
+      <div className="grid grid-cols-3">
         <img
           src={icon}
-          className="w-[100px] text-center h-[100px] transition-transform transform hover:scale-105"
+          className="w-[100px] rounded-full col-span-1 text-center h-[100px] transition-transform transform hover:scale-105"
           width={147}
           height={147}
         />
       </div>
-      <div className=" my-6 text-center">
-        <h3 className=" text-xl md:text-2xl text-black font-semibold text-center pb-6">
+      <div className=" mt-4 mb-2 text-left">
+        <h3 className=" text-xl md:text-2xl text-black font-semibold pb-2">
           {heading}
         </h3>
-        <p className=" text-small text-center p-2 pb-4">{text}</p>
+        <p className=" text-small">{text}</p>
         {/* <div className="absolute bottom-2 m-auto left-0 right-0">
           <button className="text-center rounded bg-blue-500 text-white px-4 py-2 ">
             Learn More

@@ -1,5 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
-
+import City from "./City";
 function Choose() {
   return (
     <div id="Services" className="grid grid-cols-1 md:grid-cols-2 content-center py-5 mb-5 bg-white px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -31,34 +31,32 @@ function Choose() {
 
 export default function Services() {
   return (
-    <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <div className="py-10">
-        <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 ">
-          What we provide?
-        </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ServiceCard
-            icon="/mail.svg"
+            icon="/pomind.jpg"
             text="Our 7-point vetting system guarantees that your property is in capable hands."
             heading="Peace of Mind"
           />
           <ServiceCard
-            icon="/mail.svg"
+            icon="/timelypayments.jpeg"
             text="Ensure your rents are delivered on time every time with CityRents' Payment Assurance."
             heading="Timely  Payments"
           />
           <ServiceCard
-            icon="/mail.svg"
+            icon="/tailoredPC.jpeg"
             text="A dedicated account manager oversees agreements, property management, and maintenance services with personalized attention."
             heading="Tailored Property Care"
           />
           <ServiceCard
-            icon="/mail.svg"
+            icon="/cloudbased.jpeg"
             text="Receive real-time updates on your rent payments, approve maintenance tickets according to agreements, monitor utility payments, and more—all conveniently from the comfort of your home."
             heading="Cloud Based Prop Tech"
           />
         </div>
       </div>
+      <City/>
       <Choose />
     </div>
   );

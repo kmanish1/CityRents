@@ -6,14 +6,14 @@ import Work from "@/UI/Work";
 import Benefits from "@/UI/Benefits";
 import Hero from "@/UI/Hero";
 import { Reviews } from "@/UI/reviews";
-
+import City from "@/UI/City";
 export default function Home() {
   return (
     <div className="font-centra">
       <Navbar />
       <Hero />
-      <Services />
-      <Facts />
+      {/* <Services /> */}
+      {/* <Facts /> */}
       <Work />
       <Benefits />
       <Reviews />

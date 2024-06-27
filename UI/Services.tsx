@@ -7,23 +7,23 @@ function Choose() {
         <img src="/4295033-removebg-preview.png" height={500} width={500}></img>
       </div>
       <div className="flex flex-col items-center justify-center">
-        <h3 className=" text-xl md:text-2xl text-black font-semibold text-center pb-4">
+        <h3 className=" text-xl md:text-2xl text-black font-semibold text-center">
           Why should you choose us?
         </h3>
-        <p className=" text-small p-2 pb-4">
-          Housewise is India’s fastest-growing rental property management
-          company. We provide transparent, seamless, and trustworthy Property
-          Management Solutions including rental property management services in
-          India to Non-resident Indians across the globe. From advertising,
-          tenant screening, rent collection to repairs, and beyond, Housewise
-          provides end-to-end property management services for Non-resident
-          Indians across the globe.
-        </p>
-        <div>
-          <button className="text-center rounded bg-blue-500 text-white px-4 py-2 ">
-            Learn More
-          </button>
-        </div>
+        <ul className="list-disc p-8">
+          <li>
+            <h3 className="font-semibold text-lg">Innovative Technology</h3>
+            <p>We leverage the latest cloud-based solutions to enhance operational efficiency and deliver exceptional service.</p>
+          </li>
+          <li>
+            <h3 className="font-semibold text-lg">Security and Compliance</h3>
+            <p>Your data is protected with state-of-the-art security measures, ensuring compliance with industry standards and regulations.</p>
+          </li>
+          <li>
+            <h3 className="font-semibold text-lg">Customer Support</h3>
+            <p>Our dedicated team provides ongoing support and training to maximize your experience with our platform.</p>
+          </li>
+        </ul>
       </div>
     </div>
   );
@@ -34,23 +34,28 @@ export default function Services() {
     <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="py-10">
         <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 ">
-          Our services include:
+          What we provide?
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ServiceCard
             icon="/mail.svg"
-            text="We provide end to end property management services in India for Non-Residents. From tenant search, monthly rent collection to repairs and periodic inspections, Housewise manages it all."
-            heading="End-to-End Property Management"
+            text="Our 7-point vetting system guarantees that your property is in capable hands."
+            heading="Peace of Mind"
           />
           <ServiceCard
             icon="/mail.svg"
-            text="Our rental property management services in India for Non-residents take care of everything from advertising your property, finding the right tenant, and support till tenant move-in."
-            heading="Rental Management"
+            text="Ensure your rents are delivered on time every time with CityRents' Payment Assurance."
+            heading="Timely  Payments"
           />
           <ServiceCard
             icon="/mail.svg"
-            text="We provide customized property management services in India for Non-resident Indians."
-            heading="Custom Property Management"
+            text="A dedicated account manager oversees agreements, property management, and maintenance services with personalized attention."
+            heading="Tailored Property Care"
+          />
+          <ServiceCard
+            icon="/mail.svg"
+            text="Receive real-time updates on your rent payments, approve maintenance tickets according to agreements, monitor utility payments, and more—all conveniently from the comfort of your home."
+            heading="Cloud Based Prop Tech"
           />
         </div>
       </div>

@@ -16,16 +16,16 @@ export default function ServiceCard({
       <div className="grid grid-cols-3">
         <img
           src={icon}
-          className="w-[100px] rounded-full col-span-1 text-center h-[100px] transition-transform transform hover:scale-105"
+          className="w-[100px] mb-5 rounded-full col-span-1 text-center h-[100px] transition-transform transform hover:scale-105"
           width={147}
           height={147}
         />
       </div>
       <div className=" mt-4 mb-2 text-left">
-        <h3 className=" text-xl md:text-2xl text-black font-semibold pb-2">
+        <h3 className=" text-xl md:text-2xl text-black font-medium pb-2">
           {heading}
         </h3>
-        <p className=" text-small">{text}</p>
+        <p className="text-sm">{text}</p>
         {/* <div className="absolute bottom-2 m-auto left-0 right-0">
           <button className="text-center rounded bg-blue-500 text-white px-4 py-2 ">
             Learn More

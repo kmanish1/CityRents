@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 function NavLink({ label }: { label: string }) {
   return (
-    <li className="py-2 cursor-pointer hover:border-2 hover:border-black">
+    <li className="py-2 cursor-pointer border-2 border-white hover:border-black rounded-full duration-700">
       <a className="px-2" href={"#" + label}>{label}</a>
     </li>
   );
@@ -42,12 +42,12 @@ function MobileMenu({ isOpen, links }: { isOpen: boolean; links: string[] }) {
           <Button
             label="Login"
             primary
-            className="mx-2 font-bold bg-white text-black border border-black rounded-full"
+            className="mx-2 font-bold bg-white text-black border-2 border-white hover:border-black rounded-full"
           />
           <Button
             label="Sign up"
             primary
-            className="mx-2 font-bold bg-white text-black border border-black rounded-full"
+            className="mx-2 font-bold bg-white text-black border-2 border-white hover:border-black rounded-full"
           />
         </li>
       </ul>
@@ -71,7 +71,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center space-x-8">
             <ul className="hidden md:flex space-x-8 list-none font-bold">
-              {["Home", "Services", "Locations", "FAQ"].map((link) => (
+              {["Home", "Services", "Locations", "FAQ", "Blog"].map((link) => (
                 <NavLink key={link} label={link} />
               ))}
             </ul>
@@ -112,7 +112,7 @@ export default function Navbar() {
       </div>
       <MobileMenu
         isOpen={isMobileMenuOpen}
-        links={["Home", "Services", "Locations", "FAQ"]}
+        links={["Home", "Services", "Locations", "FAQ", "Blog"]}
       />
     </nav>
   );

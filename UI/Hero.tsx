@@ -5,14 +5,15 @@ import Services from "./Services";
 
 export default function Hero() {
   return (
-    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-white bg-dot-black/[0.4]" id="#Home">
+    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4]" id="#Home">
       <section
         className="relative w-full pt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
       >
-        <div className="relative text-left z-10 max-w-2xl  animate-fade-in">
+        <div className="relative text-left z-10 max-w-2xl  animate-fade-in mt-28">
           <h1 className=" text-black text-2xl sm:text-3xl md:text-4xl animate-fade-in-up z-0">
             Rents Paid on Time Everytime!
           </h1>
+          {/* <span className="text-3xl sm:text-4xl md:text-5xl">Everytime!</span> */}
           {/* <h1 className="font-bold inline-block my-4 text-3xl sm:text-4xl md:text-5xl">EVERYTIME !</h1> */}
           {/* <p className="mt-3 text-md text-gray-700 sm:mt-5 sm:text-xl animate-fade-in-up delay-100">
             At CityRents, we redefine rental management through cutting-edge cloud-based technology. Our platform offers seamless solutions to landlords, tenants, and property managers, ensuring efficiency, transparency, and peace of mind.

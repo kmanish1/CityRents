@@ -9,7 +9,7 @@ import { Reviews } from "@/UI/reviews";
 import City from "@/UI/City";
 export default function Home() {
   return (
-    <div className="font-centra dark:bg-white bg-black dark:bg-dot-black/[0.4] bg-dot-white/[0.4]">
+    <div className="font-centra dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4]">
       <Navbar />
       <Hero />
       {/* <Services /> */}

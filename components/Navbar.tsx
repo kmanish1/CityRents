@@ -3,8 +3,8 @@ import React, { useState } from "react";
 
 function NavLink({ label }: { label: string }) {
   return (
-    <li className="py-2 cursor-pointer transition-all duration-200">
-      <a href={"#" + label}>{label}</a>
+    <li className="py-2 cursor-pointer hover:border-2 hover:border-black">
+      <a className="px-2" href={"#" + label}>{label}</a>
     </li>
   );
 }
@@ -39,8 +39,16 @@ function MobileMenu({ isOpen, links }: { isOpen: boolean; links: string[] }) {
           <NavLink key={link} label={link} />
         ))}
         <li className="py-2">
-          <Button label="Login" primary className="mx-2 font-bold bg-white text-black border border-black rounded-full" />
-          <Button label="Sign up" primary className="mx-2 font-bold bg-white text-black border border-black rounded-full" />
+          <Button
+            label="Login"
+            primary
+            className="mx-2 font-bold bg-white text-black border border-black rounded-full"
+          />
+          <Button
+            label="Sign up"
+            primary
+            className="mx-2 font-bold bg-white text-black border border-black rounded-full"
+          />
         </li>
       </ul>
     </div>
@@ -63,40 +71,24 @@ export default function Navbar() {
           </div>
           <div className="flex items-center space-x-8">
             <ul className="hidden md:flex space-x-8 list-none font-bold">
-              {["Home", "Services", "Locations", "FAQ"].map(
-                (link) => (
-                  <NavLink key={link} label={link} />
-                )
-              )}
+              {["Home", "Services", "Locations", "FAQ"].map((link) => (
+                <NavLink key={link} label={link} />
+              ))}
             </ul>
             <div className="flex items-center space-x-4">
-              <Button label="Log in" primary className="md:border-2 font-bold hidden md:block bg-[#00e785]" />
+              <Button
+                label="Log in"
+                primary
+                className="md:border-2 font-bold hidden md:block bg-[#00e785]"
+              />
               <Button
                 label="Sign up"
                 primary
                 className="hidden md:block md:border-2 font-bold bg-blue-600 text-white"
               />
-              {/* <button
-                className="md:hidden flex p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-                onClick={toggleMobileMenu}
-              >
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-              </button> */}
             </div>
             <div>
-            <button
+              <button
                 className="md:hidden flex p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
                 onClick={toggleMobileMenu}
               >

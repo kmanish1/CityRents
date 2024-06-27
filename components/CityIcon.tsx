@@ -12,7 +12,9 @@ const MyComponent = ({ img, name }: { img: string; name: string }) => {
           className="rounded-full"
         />
       </div>
-      <div className="text-medium text-black group-hover:text-blue-700 text-center">{name}</div>
+      <div className="text-medium text-black group-hover:text-blue-700 text-center">
+        {name}
+      </div>
     </div>
   );
 };

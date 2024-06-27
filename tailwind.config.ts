@@ -26,6 +26,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        centra: ['"Centra No2"', "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -44,7 +47,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors,
+  plugins: [
+    addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {

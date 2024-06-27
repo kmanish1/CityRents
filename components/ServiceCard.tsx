@@ -11,7 +11,7 @@ export default function ServiceCard({
 }) {
   return (
     <div
-      className={`text-center bg-[#e5fcf5] ml-2 shadow-[rgba(0,0,15,0.3)_10px_5px_4px_0px] border-2 rounded-3xl rounded-tr-[100px] p-2 transition-transform transform hover:scale-102 duration-1000`}
+      className={`text-center bg-[#00e785] ml-2 shadow-[rgba(0,0,15,0.3)_10px_5px_4px_0px] border-2 border-black rounded-3xl rounded-tr-[100px] p-2 transition-transform transform hover:scale-102 duration-1000`}
     >
       <div className="grid grid-cols-3">
         <img

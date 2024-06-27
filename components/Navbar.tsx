@@ -34,13 +34,13 @@ function MobileMenu({ isOpen, links }: { isOpen: boolean; links: string[] }) {
 
   return (
     <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-md z-10 text-center">
-      <ul className="flex flex-col py-2 list-none">
+      <ul className="flex flex-col py-2 list-none font-bold">
         {links.map((link) => (
           <NavLink key={link} label={link} />
         ))}
         <li className="py-2">
-          <Button label="Login" primary className="mx-2 bg-white text-black border border-black rounded-full" />
-          <Button label="Sign up" primary className="mx-2 bg-white text-black border border-black rounded-full" />
+          <Button label="Login" primary className="mx-2 font-bold bg-white text-black border border-black rounded-full" />
+          <Button label="Sign up" primary className="mx-2 font-bold bg-white text-black border border-black rounded-full" />
         </li>
       </ul>
     </div>
@@ -62,7 +62,7 @@ export default function Navbar() {
             <h3 className="text-3xl font-bold text-black">CityRents</h3>
           </div>
           <div className="flex items-center space-x-8">
-            <ul className="hidden md:flex space-x-8 list-none">
+            <ul className="hidden md:flex space-x-8 list-none font-bold">
               {["Home", "Services", "Locations", "FAQ"].map(
                 (link) => (
                   <NavLink key={link} label={link} />
@@ -70,11 +70,11 @@ export default function Navbar() {
               )}
             </ul>
             <div className="flex items-center space-x-4">
-              <Button label="Log in" primary className="md:border-2 hidden md:block bg-[#00e785]" />
+              <Button label="Log in" primary className="md:border-2 font-bold hidden md:block bg-[#00e785]" />
               <Button
                 label="Sign up"
                 primary
-                className="hidden md:block md:border-2 bg-blue-600 text-white"
+                className="hidden md:block md:border-2 font-bold bg-blue-600 text-white"
               />
               {/* <button
                 className="md:hidden flex p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"

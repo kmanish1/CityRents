@@ -1,30 +1,24 @@
 import ServiceCard from "@/components/ServiceCard";
 import City from "./City";
+import WorkCard from "@/components/WorkCard";
 function Choose() {
   return (
-    <div id="Services" className="grid grid-cols-1 md:grid-cols-2 content-center py-5 mb-5 bg-white px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div className="flex justify-center items-center">
-        <img src="/4295033-removebg-preview.png" height={500} width={500}></img>
-      </div>
-      <div className="flex flex-col items-center justify-center">
-        <h3 className=" text-xl md:text-2xl text-black font-semibold text-center">
-          Why should you choose us?
-        </h3>
-        <ul className="list-disc p-8">
-          <li>
-            <h3 className="font-semibold text-lg">Innovative Technology</h3>
-            <p>We leverage the latest cloud-based solutions to enhance operational efficiency and deliver exceptional service.</p>
-          </li>
-          <li>
-            <h3 className="font-semibold text-lg">Security and Compliance</h3>
-            <p>Your data is protected with state-of-the-art security measures, ensuring compliance with industry standards and regulations.</p>
-          </li>
-          <li>
-            <h3 className="font-semibold text-lg">Customer Support</h3>
-            <p>Our dedicated team provides ongoing support and training to maximize your experience with our platform.</p>
-          </li>
-        </ul>
-      </div>
+    <div id="Services" className="grid grid-cols-1 md:grid-cols-3 gap-4 py-5 mb-5 bg-white px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <WorkCard
+          icon="/4295033-removebg-preview.png"
+          text="We leverage the latest cloud-based solutions to enhance operational efficiency and deliver exceptional service."
+          stats="Innovative Technology"
+        />
+        <WorkCard
+          icon="/4295033-removebg-preview.png"
+          text="Your data is protected with state-of-the-art security measures, ensuring compliance with industry standards and regulations."
+          stats="Security and Compliance"
+        />
+        <WorkCard
+          icon="/4295033-removebg-preview.png"
+          text="Our dedicated team provides ongoing support and training to maximize your experience with our platform."
+          stats="Customer Support"
+        />
     </div>
   );
 }

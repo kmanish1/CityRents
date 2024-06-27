@@ -6,7 +6,7 @@ export default function Work() {
       <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 mb-4">
         What CityRents Does 
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <WorkCard
           icon="/mail.svg"
           text="CityRents offers a comprehensive Property Management System that guarantees peace of mind when it comes to overseeing your property."
@@ -21,6 +21,11 @@ export default function Work() {
           icon="/mail.svg"
           text="CityRents handles rental payments, providing peace of mind to both tenants and owners by ensuring payments are made promptly and reliably."
           stats="Rental Collections"
+        />
+        <WorkCard
+          icon="/mail.svg"
+          text="Efficiently handle maintenance requests with our intuitive system. Tenants can submit requests online, and property managers can track progress, schedule repairs, and ensure timely resolution."
+          stats="Maintenance Coordination"
         />
       </div>
     </div>

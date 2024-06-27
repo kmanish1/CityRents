@@ -70,11 +70,11 @@ export default function Navbar() {
               )}
             </ul>
             <div className="flex items-center space-x-4">
-              <Button label="Log in" primary className="md:border-2 hidden md:block md:border-gray-500" />
+              <Button label="Log in" primary className="md:border-2 hidden md:block bg-[#00e785]" />
               <Button
                 label="Sign up"
                 primary
-                className="hidden md:block md:border-2 md:border-gray-500"
+                className="hidden md:block md:border-2 bg-blue-600 text-white"
               />
               {/* <button
                 className="md:hidden flex p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"

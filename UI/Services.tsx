@@ -34,7 +34,7 @@ export default function Services() {
             heading="Peace of Mind"
           />
           <ServiceCard
-            icon="/rupee.png"
+            icon="/timely payments latest.jpeg"
             text="Ensure your rents are delivered on time every time with CityRents' Payment Assurance."
             heading="Timely  Payments"
           />

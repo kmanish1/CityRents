@@ -11,7 +11,7 @@ export default function WorkCard({
 }) {
   return (
     <div
-      className={` text-black bg-blue-600 border-2 border-black cursor-pointer hover:drop-shadow-md rounded-3xl p-2 transition-transform transform hover:scale-102 duration-1000`}
+      className={` text-black bg-[#cafde8] border-2 border-black cursor-pointer hover:drop-shadow-md rounded-3xl p-2 transition-transform transform hover:scale-102 duration-1000`}
     >
       <div className="flex items-center justify-center pb-2">
         <img

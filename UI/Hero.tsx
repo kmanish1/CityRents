@@ -5,9 +5,10 @@ import Services from "./Services";
 
 export default function Hero() {
   return (
-    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4]" id="#Home">
+    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 " id="#Home">
+      {/* dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4] */}
       <section
-        className="relative w-full pt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
+        className="relative w-full  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
       >
         <div className="relative text-left z-10 max-w-2xl  animate-fade-in mt-28">
           <h1 className=" text-black text-2xl sm:text-3xl md:text-4xl animate-fade-in-up z-0">

@@ -14,7 +14,7 @@ export default function Home() {
       <div className="md:bg-contain bg-cover bg-repeat-x mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
 
         <Navbar/>
-        <h1 className="text-black text-2xl sm:text-3xl md:text-4xl py-6 font-bold animate-fade-in-up z-0 text-center">Search for Managed Properties</h1>
+        <h1 className="text-black text-2xl mt-16 mb-5 sm:text-3xl md:text-4xl py-6 font-bold animate-fade-in-up z-0 text-center">Search for Managed Properties</h1>
         <div className="max-w-4xl mx-auto">
           <Options/>
 

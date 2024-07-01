@@ -2,11 +2,11 @@ import { useState } from "react";
 
 export default function SearchWithCity() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedCity, setSelectedCity] = useState(null);
+  const [selectedCity, setSelectedCity] = useState<string | null>(null);
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
-  const selectCity = (city) => {
+  const selectCity = (city:string) => {
     setSelectedCity(city);
     setDropdownOpen(false);
   };

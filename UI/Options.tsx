@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Search from '@/components/Search';
-
+import SearchwithCity from '@/components/SearchwithCity';
 export default function Options() {
     const [activeTab, setActiveTab] = useState('Commercial');
 
@@ -10,9 +10,9 @@ export default function Options() {
     };
 
     return (
-        <div className="text-sm font-medium text-center p-5 md:p-10 rounded-lg bg-white max-w-full md:max-w-[50%] text-gray-500 border-b border-gray-200">
+        <div className="text-sm border-2 border-gray-300 font-medium text-center p-5 rounded-lg bg-white  text-gray-500">
             <ul className="flex flex-wrap justify-center pb-5 md:pb-10">
-                {['Residential', 'Commercial', 'Service Apartments'].map((tab) => (
+                {['Residential', 'Commercial', 'Service Apartments','Industrial'].map((tab) => (
                     <li className="me-2" key={tab}>
                         <a
                             href="#"
@@ -28,7 +28,7 @@ export default function Options() {
                     </li>
                 ))}
             </ul>
-            <Search />
+            <SearchwithCity />
         </div>
     );
 }

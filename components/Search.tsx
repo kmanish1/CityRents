@@ -2,7 +2,7 @@ export default function Search(){
     return(
         <div>
         
-            <form className="max-w-md mx-auto">   
+            <form className="max-w-2xl mx-aut">   
                 <label className="mb-2 text-sm font-medium text-gray-900 sr-only ">Search</label>
                 <div className="relative">
                     <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">

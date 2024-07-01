@@ -1,7 +1,7 @@
 import Link from "next/link";
 import CityIcon from "@/components/CityIcon";
 import Services from "./Services";
-
+import City from "./City";
 
 export default function Hero() {
   return (
@@ -10,7 +10,8 @@ export default function Hero() {
       <section
         className="relative w-full  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
       >
-        <div className="relative text-left z-10 max-w-2xl  animate-fade-in mt-28">
+        <City/>
+        <div className="relative text-left z-10 max-w-2xl  animate-fade-in mt-10">
           <h1 className=" text-black text-2xl sm:text-3xl md:text-4xl animate-fade-in-up z-0">
             Rents Paid on Time Everytime!
           </h1>

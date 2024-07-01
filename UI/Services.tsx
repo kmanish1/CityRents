@@ -3,23 +3,25 @@ import City from "./City";
 import WorkCard from "@/components/WorkCard";
 function Choose() {
   return (
-    <div id="Services" className="grid grid-cols-1 md:grid-cols-3 gap-4 py-5 mb-5 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        
-        <WorkCard
-          icon="/Innovative Technology.png"
-          text="We leverage the latest cloud-based solutions to enhance operational efficiency and deliver exceptional service."
-          stats="Innovative Technology"
-        />
-        <WorkCard
-          icon="/security.png"
-          text="Your data is protected with state-of-the-art security measures, ensuring compliance with industry standards and regulations."
-          stats="Security and Compliance"
-        />
-        <WorkCard
-          icon="/customer-service.png"
-          text="Our dedicated team provides ongoing support and training to maximize your experience with our platform."
-          stats="Customer Support"
-        />
+    <div
+      id="Services"
+      className="grid grid-cols-1 md:grid-cols-3 gap-4 py-5 mb-5 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    >
+      <WorkCard
+        icon="/Innovative Technology.png"
+        text="We leverage the latest cloud-based solutions to enhance operational efficiency and deliver exceptional service."
+        stats="Innovative Technology"
+      />
+      <WorkCard
+        icon="/security.png"
+        text="Your data is protected with state-of-the-art security measures, ensuring compliance with industry standards and regulations."
+        stats="Security and Compliance"
+      />
+      <WorkCard
+        icon="/customer-service.png"
+        text="Our dedicated team provides ongoing support and training to maximize your experience with our platform."
+        stats="Customer Support"
+      />
     </div>
   );
 }
@@ -52,7 +54,7 @@ export default function Services() {
         </div>
       </div>
       <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 mb-4">
-          Our Services include:
+        Our Services include:
       </h1>
       <Choose />
     </div>

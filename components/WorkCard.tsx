@@ -22,9 +22,7 @@ export default function WorkCard({
         />
       </div>
       <div className="text-left">
-        <h3 className="text-xl mb-2">
-          {stats}
-        </h3>
+        <h3 className="text-xl mb-2">{stats}</h3>
         <p className=" text-sm">{text}</p>
       </div>
     </div>

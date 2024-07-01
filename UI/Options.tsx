@@ -10,17 +10,17 @@ export default function Options() {
     };
 
     return (
-        <div className="md:text-sm text-xs font-medium text-center rounded-xl text-gray-300 bg-sky-900">
-            <ul className="grid grid-cols-4">
-                {['Residential', 'Commercial', 'Service Apartments','Industrial'].map((tab) => (
+        <div className="md:text-sm text-xs font-medium text-center rounded-xl text-gray-300 bg-sky-700">
+            <ul className="grid grid-cols-2 md:grid-cols-4">
+                {['Residential', 'Commercial', 'Industrial','Service Apartments'].map((tab) => (
                     <li className="me-2" key={tab}>
                         <a
                             href="#"
                             onClick={() => handleTabClick(tab)}
-                            className={`inline-block p-4 m-4  border-b-2 rounded-t-lg   ${
+                            className={`inline-block m-4 p-4 rounded-lg  ${
                                 activeTab === tab
-                                    ? 'text-white border-white'
-                                    : 'border-transparent'
+                                    ? 'text-black border-white bg-white'
+                                    : 'border-transparent bg-sky-900'
                             }`}
                         >
                             {tab}

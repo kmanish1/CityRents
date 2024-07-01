@@ -66,8 +66,12 @@ export default function Navbar() {
     <nav className=" bg-white rounded-b-3xl shadow-sm relative z-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex items-center">
-            <h3 className="text-3xl font-bold text-black">CityRents</h3>
+          <div className="flex flex-col items-center py-2">
+            <div className="flex">
+              <h3 className="text-3xl font-bold text-black">CityRents</h3>
+              <div><img src="/trademark.png" width={15}></img></div>
+            </div>
+            <p className="text-sky-900 text-sm font-semibold">India's Local Property Managers</p>
           </div>
           <div className="flex items-center space-x-8">
             <ul className="hidden md:flex space-x-8 list-none font-bold">

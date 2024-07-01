@@ -8,6 +8,7 @@ import Hero from "@/UI/Hero";
 import { Reviews } from "@/UI/reviews";
 import City from "@/UI/City";
 import Options from "@/UI/Options";
+import Press from "@/UI/Press";
 export default function Home() {
   return (
     <div className="font-centra dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4]">
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
       </div>
       <Hero />
+
       {/* <Services /> */}
       {/* <Facts /> */}
       <Work />

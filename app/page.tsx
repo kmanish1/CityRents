@@ -11,12 +11,13 @@ import Options from "@/UI/Options";
 export default function Home() {
   return (
     <div className="font-centra dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4]">
-      <div className="bg-[url('/navbarbgimage.png')] md:bg-contain bg-cover bg-repeat-x mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div className="md:bg-contain bg-cover bg-repeat-x mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
 
         <Navbar/>
-        <div className="flex justify-center items-center h-[50vh] flex-wrap mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-
+        <h1 className="text-black text-2xl sm:text-3xl md:text-4xl py-6 font-bold animate-fade-in-up z-0 text-center">Search for Managed Properties</h1>
+        <div className="max-w-4xl mx-auto">
           <Options/>
+
         </div>
       </div>
       <Hero />

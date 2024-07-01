@@ -4,6 +4,7 @@ import WorkCard from "@/components/WorkCard";
 function Choose() {
   return (
     <div id="Services" className="grid grid-cols-1 md:grid-cols-3 gap-4 py-5 mb-5 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        
         <WorkCard
           icon="/Innovative Technology.png"
           text="We leverage the latest cloud-based solutions to enhance operational efficiency and deliver exceptional service."
@@ -50,7 +51,9 @@ export default function Services() {
           />
         </div>
       </div>
-      <City/>
+      <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 mb-4">
+          Our Services include:
+      </h1>
       <Choose />
     </div>
   );

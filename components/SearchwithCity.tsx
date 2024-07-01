@@ -11,15 +11,14 @@ export default function SearchWithCity() {
     setDropdownOpen(false);
   };
   return (
-    <form className="mx-auto">
-      
+    <form className="mx-auto bg-white border border-sky-900 p-3"> 
       <div className="flex items-center">
-        <div className="relative ">
+        <div className="relative mr-2">
             <button
               id="dropdown-button"
               type="button"
               onClick={toggleDropdown}
-              className="ml-2.5 py-4 rounded-full px-4 text-sm font-medium flex text-gray-900 bg-gray-100 border border-gray-300  hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 "
+              className="ml-2.5 py-4 rounded-full px-4 text-sm font-medium flex text-gray-900 bg-gray-100 border border-gray-300  hover:bg-gray-200  focus:outline-none"
             >
               {selectedCity||"City"}
               <svg
@@ -113,6 +112,7 @@ export default function SearchWithCity() {
         </div>
         
       </div>
+      
     </form>
   );
 }

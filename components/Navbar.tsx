@@ -4,7 +4,9 @@ import React, { useState } from "react";
 function NavLink({ label }: { label: string }) {
   return (
     <li className="py-2 cursor-pointer border-2 border-white hover:border-black rounded-full duration-700">
-      <a className="px-2" href={"#" + label}>{label}</a>
+      <a className="px-2" href={"#" + label}>
+        {label}
+      </a>
     </li>
   );
 }
@@ -69,9 +71,13 @@ export default function Navbar() {
           <div className="flex flex-col items-center py-2">
             <div className="flex">
               <h3 className="text-3xl font-bold text-black">CityRents</h3>
-              <div><img src="/trademark.png" width={15}></img></div>
+              <div>
+                <img src="/trademark.png" width={15}></img>
+              </div>
             </div>
-            <p className="text-sky-900 text-sm font-semibold">India's Local Property Managers</p>
+            <p className="text-sky-900 text-sm font-semibold">
+              India&apos;s Local Property Managers
+            </p>
           </div>
           <div className="flex items-center space-x-8">
             <ul className="hidden md:flex space-x-8 list-none font-bold">

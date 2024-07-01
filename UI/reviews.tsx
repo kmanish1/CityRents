@@ -14,7 +14,8 @@ const testimonials = [
     title: "Poland",
   },
   {
-    quote: "I was struggling to rent out my Flat in Pune, as I am based in USA and finding the tenants is a big task. Housewise helped me rent my Flat and I am very much satisfied with the service. Process was smooth and all agents were proactive, specially Sandhya Borkar has helped understand and go through the process seamlessly. I highly recommend cityrents",
+    quote:
+      "I was struggling to rent out my Flat in Pune, as I am based in USA and finding the tenants is a big task. Housewise helped me rent my Flat and I am very much satisfied with the service. Process was smooth and all agents were proactive, specially Sandhya Borkar has helped understand and go through the process seamlessly. I highly recommend cityrents",
     name: "Edgar Allan Poe",
     title: "Australia",
   },

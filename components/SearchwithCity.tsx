@@ -90,7 +90,7 @@ export default function SearchWithCity() {
           />
           <button
             type="submit"
-            className="absolute top-0 rounded-full flex right-0 p-4 text-sm font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none "
+            className="absolute top-0 rounded-full flex right-0 p-4 text-sm font-medium text-white bg-[#22cc88] "
           >
             <svg
               className="w-5 h-5"

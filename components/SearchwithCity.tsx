@@ -85,7 +85,7 @@ export default function SearchWithCity() {
             type="search"
             id="search-dropdown"
             className="block w-full p-4 text-sm text-gray-900 bg-gray-50 rounded-full border focus:border-none"
-            placeholder="Where do you want to rent? e.g Gachibowli"
+            placeholder='Search "Gachibowli"'
             required
           />
           <button

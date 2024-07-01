@@ -79,7 +79,7 @@ export default function Navbar() {
               <Button
                 label="Log in"
                 primary
-                className="md:border-2 font-bold hidden md:block bg-blue-600 text-white"
+                className="md:border-2 font-bold hidden md:block bg-[#22cc88] text-white"
               />
               <Button
                 label="Sign up"

@@ -37,7 +37,10 @@ export const Footer = () => {
               <span className="font-semibold text-xl">City Rents</span>
             </Link>
             <p className="text-sm max-w-md">
-              Discover how our cloud-based solutions can transform your rental management experience. Whether you're a property owner looking to optimize returns or a tenant seeking a hassle-free rental experience, CityRents is here to exceed your expectations.
+              Discover how our cloud-based solutions can transform your rental
+              management experience. Whether you're a property owner looking to
+              optimize returns or a tenant seeking a hassle-free rental
+              experience, CityRents is here to exceed your expectations.
             </p>
           </div>
 

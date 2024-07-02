@@ -53,10 +53,10 @@ export default function Services() {
           />
         </div>
       </div>
-      <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 mb-4">
+      {/* <h1 className="text-2xl md:text-4xl text-black font-semibold text-center pb-6 mb-4">
         Our Services include:
       </h1>
-      <Choose />
+      <Choose /> */}
     </div>
   );
 }

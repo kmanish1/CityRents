@@ -24,7 +24,7 @@ export default function Home() {
       {/* <Services /> */}
       {/* <Facts /> */}
       <Work />
-      <Benefits />
+      {/* <Benefits /> */}
       <Reviews />
       <Contact />
     </div>

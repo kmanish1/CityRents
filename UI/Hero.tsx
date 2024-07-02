@@ -14,7 +14,8 @@ export default function Hero() {
         <City />
         <Press />
         <div className="relative text-left z-10 max-w-2xl  animate-fade-in mt-10">
-          <h1 className=" text-black text-2xl sm:text-3xl md:text-4xl animate-fade-in-up z-0">
+          <h1 className="text-black text-2xl sm:text-3xl md:text-4xl animate-fade-in-up z-0 py-3">For Landlords:</h1>
+          <h1 className=" text-black text-xl sm:text-2xl md:text-3xl animate-fade-in-up z-0">
             Rents Paid on Time Everytime!
           </h1>
           {/* <span className="text-3xl sm:text-4xl md:text-5xl">Everytime!</span> */}
@@ -31,7 +32,7 @@ export default function Hero() {
               <img src="/whatsapp.svg"></img>
             </Link> */}
 
-            <Link
+            {/* <Link
               href="#"
               className="mt-3 sm:mt-0 sm:ml-3 inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-primary bg-blue-600 hover:bg-blue-500 text-white md:py-4 md:text-lg md:px-10"
               prefetch={false}
@@ -48,7 +49,7 @@ export default function Hero() {
                   <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
                 </svg>
               </span>
-            </Link>
+            </Link> */}
           </div>
         </div>
         {/* <div className="order-first md:order-last bg-blue">

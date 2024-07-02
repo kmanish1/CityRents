@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 function NavLink({ label }: { label: string }) {
   return (
-    <li className="py-2 cursor-pointer border-2 border-white hover:border-black rounded-full duration-700">
+    <li className="py-2 cursor-pointer border border-sky-900 hover:border-white rounded-full duration-700">
       <a className="px-2" href={"#" + label}>
         {label}
       </a>
@@ -35,7 +35,7 @@ function MobileMenu({ isOpen, links }: { isOpen: boolean; links: string[] }) {
   if (!isOpen) return null;
 
   return (
-    <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-md z-10 text-center">
+    <div className="lg:hidden absolute top-full left-0 right-0 bg-sky-900 shadow-md z-10 text-center">
       <ul className="flex flex-col py-2 list-none font-bold">
         {links.map((link) => (
           <NavLink key={link} label={link} />
@@ -65,17 +65,17 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" bg-white rounded-b-3xl shadow-sm relative z-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+    <nav className=" bg-sky-900 text-white rounded-b-3xl shadow-sm relative z-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex flex-col items-center py-2">
             <div className="flex">
-              <h3 className="text-3xl font-bold text-black">CityRents</h3>
+              <h3 className="text-3xl font-bold text-white">CityRents</h3>
               <div>
                 <img src="/trademark.png" width={15}></img>
               </div>
             </div>
-            <p className="text-sky-900 text-sm font-semibold">
+            <p className=" text-sm font-semibold">
               India&apos;s Local Property Managers
             </p>
           </div>
@@ -89,12 +89,12 @@ export default function Navbar() {
               <Button
                 label="Log in"
                 primary
-                className="md:border-2 font-bold hidden md:block bg-[#22cc88] text-white"
+                className=" font-bold hidden md:block bg-[#22cc88] text-white"
               />
               <Button
                 label="Sign up"
                 primary
-                className="hidden md:block md:border-2 font-bold bg-blue-600 text-white"
+                className="hidden md:block  font-bold bg-blue-600 text-white"
               />
             </div>
             <div>

@@ -67,7 +67,10 @@ export default function Contact() {
   return (
     <div className="flex justify-center items-center py-16" id="Contact Us">
       <div className="bg-card p-8 rounded-lg shadow-lg w-full max-w-md bg-white">
-        <h2 className="text-xl font-semibold mb-6 text-center">Experience the Future of Rental Management with CityRents. Contact Us Today!</h2>
+        <h2 className="text-xl font-semibold mb-6 text-center">
+          Experience the Future of Rental Management with CityRents. Contact Us
+          Today!
+        </h2>
         <form className="space-y-4">
           <Input
             text="Enter Your name"

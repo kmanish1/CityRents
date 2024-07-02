@@ -7,6 +7,7 @@ import Benefits from "@/UI/Benefits";
 import Hero from "@/UI/Hero";
 import { Reviews } from "@/UI/reviews";
 import Options from "@/UI/Options";
+import CityRents from "@/UI/CityRents";
 export default function Home() {
   return (
     <div className="font-centra dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4]">

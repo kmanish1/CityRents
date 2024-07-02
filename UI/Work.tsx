@@ -18,7 +18,7 @@ export default function Work() {
           stats="Maintenance Concerns"
         />
         <WorkCard
-          icon="/Rental Collections.png"
+          icon="/rental collections green.jpeg"
           text="CityRents handles rental payments, providing peace of mind to both tenants and owners by ensuring payments are made promptly and reliably."
           stats="Rental Collections"
         />

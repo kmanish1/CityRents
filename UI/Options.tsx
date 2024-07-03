@@ -30,7 +30,7 @@ export default function Options() {
           )
         )}
       </ul>
-      <SearchwithCity />
+      <Search />
     </div>
   );
 }

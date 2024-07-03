@@ -4,6 +4,7 @@ import Services from "./Services";
 import City from "./City";
 import Press from "./Press";
 import CityRents from "./CityRents";
+import Properties from "./Properties";
 export default function Hero() {
   return (
     <div
@@ -13,6 +14,7 @@ export default function Hero() {
       {/* dark:bg-white bg-white dark:bg-dot-black/[0.4] bg-dot-black/[0.4] */}
       <section className="relative w-full  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
         <City />
+        <Properties/>
         <Press />
         <div className="relative text-left z-10 max-w-2xl  animate-fade-in mt-10">
           <h1 className="text-black text-2xl sm:text-3xl md:text-4xl animate-fade-in-up z-0 py-3">For Landlords</h1>

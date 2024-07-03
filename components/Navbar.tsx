@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-
+import Link from 'next/link';
 function NavLink({ label }: { label: string }) {
   return (
     <li className="py-2 cursor-pointer border border-sky-900 hover:border-white rounded-full duration-700">
@@ -70,9 +70,11 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex flex-col items-center py-2">
             <div className="flex">
-              <h3 className="text-3xl font-bold text-white">CityRents</h3>
+              <Link href="/">
+                <h3 className="text-3xl font-bold text-white cursor-pointer" id="#">CityRents</h3>
+              </Link>
               <div>
-                <img src="/logo.jpeg" width={35}></img>
+                <img src="/logo.jpeg" width={20}></img>
               </div>
             </div>
             <p className=" text-sm">
